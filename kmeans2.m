@@ -1,6 +1,6 @@
 function [ means, clusters ] = kmeans2( data, n )
 %kmeans2 - Get matrix of means, matrix of clusters for n
-%Implmentation by Nikolay Bogoychev, s1031254
+%Implmentation by Nikolay Bogoychev,
 
 distance = get_distance_matrix(data);
 
